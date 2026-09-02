@@ -1,0 +1,39 @@
+# 第三方仓库版本记录
+
+SAGS 已迁移为 Git submodule，由根仓库固定提交版本。其余第三方工作树暂由
+`tools/bootstrap_third_party.sh` 克隆固定提交，再应用 `patches/` 中的已跟踪源码差异和
+`overlays/` 中新增的源码、配置文件。权重、虚拟环境、缓存、输入数据和运行结果不进入 Git。
+
+SAGS 工作树应保持干净；其余尚未迁移的 `third_party/*` 在 bootstrap 后出现预期补丁差异不代表版本漂移。
+若上游或 fork 地址不可访问，对应第三方源码将无法仅凭根仓库重建。
+
+## Hunyuan3D-2
+- 仓库：https://github.com/Junnan-bjtu/Hunyuan3D-2.git
+- 提交：6842c7036f4e54594096a25177302d662d034148
+- 分支：insertany3d
+
+## MVInpainter
+- 仓库：https://github.com/Junnan-bjtu/MVInpainter.git
+- 提交：a4bea2cbea152cdeb3741f00846a0369e435289b
+- 分支：insertany3d
+
+## SAGS
+- 仓库：https://github.com/Junnan-bjtu/SAGS.git
+- 提交：cb905c26178b9ff1cf2de51cf0051d509192f159
+- 分支：insertany3d
+
+## TRELLIS
+- 仓库：https://github.com/Junnan-bjtu/TRELLIS.git
+- 提交：50599ef1b32bcc43924b19449f9c45689f660e96
+- 分支：insertany3d
+
+## TRELLIS-old（仅保留，不安装）
+- 该目录仅保留历史 legacy 文件，不参与 bootstrap、环境安装或主流程。
+- 仓库：https://github.com/microsoft/TRELLIS.git
+- 提交：eb83038919f6e1feb63accf3a97a377a608c497d
+- 分支：main
+
+## gim
+- 仓库：https://github.com/Junnan-bjtu/gim.git
+- 提交：e126052d86aa99292e41d289f6fb0b0f37dafe87
+- 分支：insertany3d

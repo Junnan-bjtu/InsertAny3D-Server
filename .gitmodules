@@ -1,0 +1,20 @@
+[submodule "third_party/SAGS"]
+	path = third_party/SAGS
+	url = https://github.com/Junnan-bjtu/SAGS.git
+	branch = insertany3d
+[submodule "third_party/gim"]
+	path = third_party/gim
+	url = https://github.com/Junnan-bjtu/gim.git
+	branch = insertany3d
+[submodule "third_party/TRELLIS"]
+	path = third_party/TRELLIS
+	url = https://github.com/Junnan-bjtu/TRELLIS.git
+	branch = insertany3d
+[submodule "third_party/Hunyuan3D-2"]
+	path = third_party/Hunyuan3D-2
+	url = https://github.com/Junnan-bjtu/Hunyuan3D-2.git
+	branch = insertany3d
+[submodule "third_party/MVInpainter"]
+	path = third_party/MVInpainter
+	url = https://github.com/Junnan-bjtu/MVInpainter.git
+	branch = insertany3d
